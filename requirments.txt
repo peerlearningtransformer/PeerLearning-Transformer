@@ -1,0 +1,39 @@
+# Requirements for Attention-Enhanced Peer Learning
+# Python 3.11+ (Recommended for modern ML stack and performance)
+
+# IMPORTANT: Install PyTorch with CUDA support first:
+# For CUDA 12.1 (RTX 20/30/40 series):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# For CUDA 11.8:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Core deep learning frameworks (install via pip index-url above, not here)
+# torch>=2.0.0+cu121  # CUDA version - install separately
+# torchvision>=0.15.0+cu121  # CUDA version - install separately
+numpy>=1.24.0
+
+# Modern RL framework (Gymnasium + Stable-Baselines3)
+gymnasium>=0.29.0
+stable-baselines3>=2.2.0
+
+# Gymnasium environments
+gymnasium[box2d]>=0.29.0  # For LunarLander-v3
+gymnasium[mujoco]>=0.29.0  # For Hopper-v4, Walker2d-v4
+mujoco>=3.0.0
+
+# Logging and visualization
+tensorboard>=2.15.0
+matplotlib>=3.8.0
+pandas>=2.0.0
+seaborn>=0.13.0
+
+# Fix protobuf compatibility with tensorboard
+protobuf==3.20.3
+
+# Optional: Weights & Biases (latest)
+wandb>=0.16.0
+
+# Utilities
+cloudpickle>=3.0.0
+tqdm>=4.66.0
+scipy>=1.11.0
