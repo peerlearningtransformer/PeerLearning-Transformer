@@ -506,7 +506,7 @@ If you use this code, reproduce the experiments, or refer to the technical archi
 ```bibtex
 @software{uysal_ozayturk_transformer_trust_peerlearning_2026,
   title        = {Transformer-Based Trust Estimation for Peer Learning in Reinforcement Learning},
-  author       = {Uysal, Melek Selin and {\"O}zayt{\"u}rk, Hasen},
+  author       = {Uysal, Melek Selin and Özaytürk, Hasen},
   year         = {2026},
   url          = {https://github.com/peerlearningtransformer/PeerLearning-Transformer/},
   organization = {Istanbul Technical University},
