@@ -499,7 +499,9 @@ python run_attention_peer.py \
 ```
 
 ---
-
+## Citation
+If you use this code, reproduce the experiments, or refer to the technical architecture in your research, please cite this repository as follows:
+bibtex
 @software{uysal_ozayturk_transformer_trust_peerlearning_2026,
   title        = {Transformer-Based Trust Estimation for Peer Learning in Reinforcement Learning},
   author       = {Uysal, Melek Selin and {\"O}zayt{\"u}rk, Hasen},
