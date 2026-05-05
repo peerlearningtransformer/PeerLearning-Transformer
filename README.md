@@ -502,16 +502,16 @@ python run_attention_peer.py \
 
 ## Citation
 
-If you use this code or refer to the technical architecture in your research, please cite:
+If you use this code, reproduce the experiments, or refer to the technical architecture in your research, please cite this repository as follows:
 
 ```bibtex
-@software{transformer_trust_peerlearning,
+@software{uysal_ozayturk_transformer_trust_peerlearning_2026,
   title        = {Transformer-Based Trust Estimation for Peer Learning in Reinforcement Learning},
-  author       = {},
+  author       = {Uysal, Melek Selin and {\"O}zayt{\"u}rk, Hasen},
   year         = {2026},
-  url          = {},
-  institution = {},
-  note         = {Software repository (preprint under submission to IJCNN 2026).}
+  url          = {[<repository-url>](https://github.com/peerlearningtransformer/PeerLearning-Transformer/)},
+  institution = {Istanbul Technical University},
+  note         = {Software repository accompanying a submission to EUMAS 2026.}
 }
 ```
 
